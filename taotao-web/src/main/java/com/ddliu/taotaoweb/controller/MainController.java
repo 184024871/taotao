@@ -18,10 +18,11 @@ public class MainController {
     @RequestMapping("/main")
     List<String> main(){
         List<String> mains = new ArrayList<>();
-        mains.add("首页");
-        mains.add("通讯录");
-        mains.add("发现");
-        mains.add("我");
+        mains.add("淘");
+        mains.add("微淘");
+        mains.add("消息");
+        mains.add("购物车");
+        mains.add("我的淘淘");
         return mains;
     }
 
