@@ -1,0 +1,20 @@
+server:
+  port: 8888
+
+spring:
+#  springMvc配置
+#  mvc:
+#    view:
+#      prefix:/
+#      suffix:.html
+#  数据库配置
+  datasource:
+    username: root
+    password: Ldd19956598039!
+    url: jdbc:mysql://118.89.113.84:3306/U_PXX?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis:
+  mapper-locations: classpath:/mappers/*.xml
+  type-aliases-package: com.ddliu.entity
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
