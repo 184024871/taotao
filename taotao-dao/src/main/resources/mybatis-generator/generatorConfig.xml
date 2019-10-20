@@ -45,7 +45,7 @@
         </javaTypeResolver>
 
         <!-- 生成实体类地址 -->
-        <javaModelGenerator targetPackage="com.ddliu.entity" targetProject="${project}" >
+        <javaModelGenerator targetPackage="com.ddliu.entity.po" targetProject="${project}" >
             <property name="enableSubPackages" value="false"/>
             <property name="trimStrings" value="true"/>
         </javaModelGenerator>

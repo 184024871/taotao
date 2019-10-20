@@ -3,10 +3,10 @@ server:
 
 spring:
 #  springMvc配置
-#  mvc:
-#    view:
-#      prefix:/
-#      suffix:.html
+  mvc:
+    view:
+      prefix: /
+      suffix: .html
 #  数据库配置
   datasource:
     username: root
