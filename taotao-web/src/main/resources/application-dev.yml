@@ -2,11 +2,6 @@ server:
   port: 8888
 
 spring:
-#  springMvc配置
-  mvc:
-    view:
-      prefix: /
-      suffix: .html
 #  数据库配置
   datasource:
     username: root
